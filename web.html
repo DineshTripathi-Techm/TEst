@@ -1,71 +1,67 @@
-<!DOCTYPE HTML>
+s<html>
+	<head>
+		<title>Tekergoo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script type="text/javascript">var submitted=false;</script>
+			<script type="text/javascript">
+			
+			</script>
+	</head>
+	<body class="is-loading">
 
-<html>
-<body background="tekergoo.png">
-<head>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<img class="logo" src="images/logo.png" style="max-width: 30em;">
+							<h3>CONTACT</h3>
+							<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSde96laptkyffUcJqE9AG6qKuB9jy7hwqcUpmZstMi8ayfhig/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+							  <input type="email" name="entry.1260203844" id="entry.1260203844" placeholder="Email Address"> <br>
+							  <input type="submit" value="Submit">
+							</form>
+							<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
+						</header>
+						<footer>
+							<ul class="icons">
+								<li><a href="#" class="fa-twitter">Twitter</a></li>
+								<li><a href="#" class="fa-instagram">Instagram</a></li>
+								<li><a href="#" class="fa-facebook">Facebook</a></li>
+							</ul>
+						</footer>
+					</section>
 
-<title>Tekergoo</title>
-<meta charset=utf-8 />
-<meta name="author" content="Tekergoo">
-<meta name=viewport content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="Tekergoo's website" />
-<meta property="og:type" content="profile" />
-<meta property="og:url" content="http://csongorkocsis.me/" />
-<meta property="og:image" content="https://drive.google.com/file/d/0BwjpMP4lvT2GOTlacWZuY2JRSkE/view?usp=sharing" />
-<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-<link rel=stylesheet href="assets/css/main.min.css" />
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Csongor Kocsis</li><li><a href="http://csongorkocsis.me">WEBSITE</a></li>
+						</ul>
+					</footer>
 
+			</div>
 
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+				$('#gform').on('submit', function(e) {
+			  $('#gform *').fadeOut(2000);
+			  $('#gform').prepend('Your submission has been processed...');
+			  });
+			</script>
+			
 
-</head>
-
-
-<body class="loading">
-<div id="wrapper">
-<div id="bg"></div>
-<div id="overlay"></div>
-<div id="main">
-<header id="header">
-<h1>Tekergoo, <span class="typingtext"></h1>
-<nav>
-<ul>
-<li><a href="https://uk.linkedin.com/in/csongorkocsis" class="icon fa-linkedin"><span class=label>Dribbble</span></a></li>
-<li><a href="https://twitter.com/csongorkocsis" class="icon fa-twitter"><span class=label>Twitter</span></a></li>
-<li><a href="https://www.facebook.com/tóth.benedek" class="icon fa-facebook"><span class=label>Facebook</span></a></li>
-<li><a href="https://github.com/Claw666" class="icon fa-github"><span class=label>Github</span></a></li>
-<li><a href="https://www.instagram.com/csongorkocsis/" class="icon fa-instagram"><span class=label>Instagram</span></a></li>
-<li><a href="mailto:csongor.kocsis.t@gmail.com" class="icon fa-envelope-o"><span class=label>Email</span></a></li>
-</ul>
-</nav>
-<p>Foodtech to Hungary</p>
-<hr>
-<p>BE PREPARED!</p>
-<hr>
-<p>SOON WE STARTS!</p>
-<h2><button class="btn btn-1 btn-1e" onclick="window.location.href='mailto:csongor.kocsis.t@gmail.com'">HOLA ME!</button></h2>
-</header>
-<footer id="footer">
-<span class=copyright>&copy; 2017 Etelfutar Kft.</span>
-</footer>
-</div>
-</div>
-<script src=assets/js/jquery-1.12.4.min.js></script>
-<script src=assets/js/typed.min.js></script>
-<script>$(function(){$(".typingtext").typed({strings:["buona giornata!","have a good day!","szép jó napot!","guten Tag!", "buna ziua!"],typeSpeed:0,startDelay:0,backSpeed:0,backDelay:700,loop:true,loopCount:false,showCursor:false,cursorChar:"|",})});</script>
-<script>window.onload=function(){document.body.className=""};window.ontouchmove=function(){return false};window.onorientationchange=function(){document.body.scrollTop=0};</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-68986480-1', 'auto');
-  ga('send', 'pageview');
-
-
-
-</script>
-</body>
+	</body>
 </html>
