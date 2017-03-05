@@ -1,67 +1,28 @@
-s<html>
-	<head>
-		<title>Tekergoo</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-			<script type="text/javascript">var submitted=false;</script>
-			<script type="text/javascript">
-			
-			</script>
-	</head>
-	<body class="is-loading">
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+<img src="logo.png" style="width:304px;height:228px;">
+    background-color: lightblue;
+}
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+h1 {
+    color: white;
+    text-align: center;
+}
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<img class="logo" src="images/logo.png" style="max-width: 30em;">
-							<h3>CONTACT</h3>
-							<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSde96laptkyffUcJqE9AG6qKuB9jy7hwqcUpmZstMi8ayfhig/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
-							  <input type="email" name="entry.1260203844" id="entry.1260203844" placeholder="Email Address"> <br>
-							  <input type="submit" value="Submit">
-							</form>
-							<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+p {
+    font-family: verdana;
+    color: white;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
 
-						</header>
-						<footer>
-							<ul class="icons">
-								<li><a href="#" class="fa-twitter">Twitter</a></li>
-								<li><a href="#" class="fa-instagram">Instagram</a></li>
-								<li><a href="#" class="fa-facebook">Facebook</a></li>
-							</ul>
-						</footer>
-					</section>
+<h1>Foodtech Magyarországra</h1>
+<p>Hamarosan indulunk!</p>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Csongor Kocsis</li><li><a href="http://csongorkocsis.me">WEBSITE</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-				$('#gform').on('submit', function(e) {
-			  $('#gform *').fadeOut(2000);
-			  $('#gform').prepend('Your submission has been processed...');
-			  });
-			</script>
-			
-
-	</body>
+</body>
 </html>
